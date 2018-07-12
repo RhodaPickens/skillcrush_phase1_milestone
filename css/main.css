@@ -1,0 +1,139 @@
+/***** BASE STYLES *****/
+body {
+  color: #282828;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 3em;
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.6em;
+  line-height: 1.4;
+  text-align: center;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+header {
+  height: 800px;
+}
+
+#portfolio {
+  height: 1450px;
+}
+
+#about {
+  background: linear-gradient(#f0c8c0, #ffffff);
+  height: 480px;
+}
+
+#contact {
+  background-color: #e44470;
+  height: 400px;
+}
+
+/***** GRID *****/
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** HEADER *****/
+header {
+  background: url('../img/hero.jpg');
+  background-size: cover;
+}
+
+/***** PORTFOLIO *****/
+#portfolio h3 {
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+
+.thumbnail img {
+  border: 1px solid #b7b7b7;
+}
+
+p.subheading {
+  margin-top: 3px;
+}
+
+.project {
+  padding-bottom: 50px;
+}
+
+/***** ABOUT *****/
+#about h3 , #about p {
+  color: #282828;
+}
+
+#about img {
+  box-shadow: 5px 5px 10px #787878;
+}
+
+/***** CONTACT *****/
+#contact {
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/contact.jpg');
+  background-size: cover;
+}
+
+#contact .third-width {
+  text-align: center;
+}
+
+#contact h4, #contact h3, #contact p, #contact a {
+  color: #ffffff;
+}
+
+#contact i {
+  color: #f0c8c0;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#contact h4 {
+  padding-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  font-size: 0.9em;
+  padding-top: 95px;
+}
